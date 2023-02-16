@@ -121,3 +121,17 @@ button:hover{
   background-color: #A9C42D;
   transform: scale(1.02);
 }
+
+@media (min-width: 576px){
+ 
+  #card {
+    width: 550px;
+    height: 400px;
+  }
+  
+  #bottom-left-section {
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+  }
+}
